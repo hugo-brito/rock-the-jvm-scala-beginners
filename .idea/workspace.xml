@@ -26,6 +26,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QyWzLU7k5T5omfdHKCDRGGo9sO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -46,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
+  <component name="RunManager" selected="Application.OOBasics">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="Scala" />
@@ -73,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+      <module name="Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Recursion" />
       <module name="Scala" />
@@ -86,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValuesVariableTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.ValuesVariableTypes" />
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.StringOps" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
@@ -99,23 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="javaOptions" value="-Djline.terminal=NONE" />
-      <option name="myConsoleArgs" value="" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOBasics" />
+        <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
-        <item itemvalue="Scala Console.Scala Console" />
-        <item itemvalue="Application.ValuesVariableTypes" />
       </list>
     </recent_temporary>
   </component>
