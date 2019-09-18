@@ -70,11 +70,14 @@ object Recursion extends App{
 
 	def isPrime(n: Int): Boolean = {
 		@tailrec
-		def isPrimeUntil(t: Int): Boolean =
-			if (t <= 1) true
-			else n % t !=0 && isPrimeUntil(t-1)
+		def isPrimeTailRec(t: Int, isStillPrime: Boolean): Boolean =
+			// the accumulator has always the same type as the return type and stores the value of the computation
+			// so far
+			if (!isStillPrime) false
+			else if (t <= 1) true
+			else isPrimeTailRec(t - 1, n % t != 0 && isStillPrime)
 
-		isPrimeUntil(n / 2)
+		isPrimeTailRec(n / 2, true)
 	}
 
 	// it's already tail-recursive
@@ -82,16 +85,15 @@ object Recursion extends App{
 	// 3.
 
 	def fibonacci(n: Int) = {
-		if (n <= 2) 1
-		else {
-			@tailrec
-			def helper(acc1: Int, acc2: Int): Int = {
-				helper(n-1, n-2)
-			}
-
-			helper(n, 1, 1)
+		@tailrec
+		def helper(i: Int, acc1: Int, acc2: Int): Int = {
+			// the number of recursive calls of the recursive function is the number of accumulators I need
+			if(i >= n) acc1
+			else helper(i+1, acc1 + acc2, acc1)
 		}
+		if (n <= 2) 1
+		else helper(2, 1, 1)
 	}
 
-	println("0: " + fibonacci(0) + "\n1: " + fibonacci(1) + "\n5: " + fibonacci(5))
+	println("0: " + fibonacci(0) + "\n1: " + fibonacci(1) + "\n5: " + fibonacci(5) + "\n8: " + fibonacci(8))
 }
