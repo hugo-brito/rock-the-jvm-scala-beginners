@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9621740-10d8-4c20-a7b7-396260fad0bd" name="Default Changelist" comment="" />
+    <list default="true" id="a9621740-10d8-4c20-a7b7-396260fad0bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -47,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OOBasics">
-    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
+  <component name="RunManager" selected="Application.MethodNotations">
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Functions" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Functions" />
+    <configuration name="MethodNotations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.MethodNotations" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodNotations" />
         <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Expressions" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +142,8 @@
       <workItem from="1568739578307" duration="1381000" />
       <workItem from="1568743581847" duration="253000" />
       <workItem from="1568743847059" duration="10038000" />
+      <workItem from="1568828563896" duration="243000" />
+      <workItem from="1568828818868" duration="4546000" />
     </task>
     <servers />
   </component>
@@ -144,6 +152,19 @@
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
