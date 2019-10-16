@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9621740-10d8-4c20-a7b7-396260fad0bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
+  <component name="RunManager" selected="Application.Exceptions">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="Scala" />
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.InheritanceAndTraits" />
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Exceptions" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.CaseClasses" />
         <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.AbstractDataTypes" />
-        <item itemvalue="Application.InheritanceAndTraits" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +152,7 @@
       <workItem from="1569402582737" duration="5779000" />
       <workItem from="1570552627046" duration="3578000" />
       <workItem from="1571168827403" duration="7528000" />
-      <workItem from="1571253465927" duration="1836000" />
+      <workItem from="1571253465927" duration="4425000" />
     </task>
     <servers />
   </component>
