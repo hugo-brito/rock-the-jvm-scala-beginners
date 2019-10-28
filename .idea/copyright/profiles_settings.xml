@@ -1,5 +1,8 @@
 <component name="CopyrightManager">
   <settings default="Basic copyright header">
+    <module2copyright>
+      <element module="Project Files" copyright="Basic copyright header" />
+    </module2copyright>
     <LanguageOptions name="Scala" />
   </settings>
 </component>

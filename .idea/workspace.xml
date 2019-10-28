@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9621740-10d8-4c20-a7b7-396260fad0bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/PackagingAndImports.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/Cinderella.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/PrinceCharming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/StringComposition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part2oop/AbstractDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +43,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,22 +60,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exceptions">
+  <component name="RunManager" selected="Application.StringComposition">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
-      <module name="Scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringComposition" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.StringComposition" />
+      <module name="Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringComposition" />
+        <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.CaseClasses" />
-        <item itemvalue="Application.AnonymousClasses" />
-        <item itemvalue="Application.AbstractDataTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,10 @@
       <workItem from="1570552627046" duration="3578000" />
       <workItem from="1571168827403" duration="7528000" />
       <workItem from="1571253465927" duration="5163000" />
-      <workItem from="1571660861234" duration="1365000" />
+      <workItem from="1571660861234" duration="2487000" />
+      <workItem from="1571680589333" duration="174000" />
+      <workItem from="1572297193714" duration="2028000" />
+      <workItem from="1572301323560" duration="146000" />
     </task>
     <servers />
   </component>
